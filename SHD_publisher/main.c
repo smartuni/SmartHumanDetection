@@ -298,7 +298,7 @@ static int raspberry_pi(int sensor1 , int sensor2){
 						 roomNumber = '1';
 				         gpio_set(GPIO_PIN(0,23));
 						 gpio_clear(GPIO_PIN(0,28));
-						 	char *message[] = {"pub","publisher/roomSensorInformation1","1"};
+						 	char *message[] = {"pub","publisher/roomSensorInformation1/on","1"};
 						 cmd_pub(3, message);
                            }
 				// Reading from the infrared sensor  2  
@@ -310,7 +310,7 @@ static int raspberry_pi(int sensor1 , int sensor2){
 						 char *message[] = {"pub","publisher/roomSensorInformation2","1"};
 						 cmd_pub(3, message);
                            }
-						    xtimer_sleep(2);	
+						   // xtimer_sleep(2);	
 						   return 0;
 };
 
@@ -554,15 +554,16 @@ void functionMCSensor (void){
 						 puts("connection has been established");
 					char *message[] = {"pub","publisher/communication", "\"The SHD microcontroller is live, and ready to communicate.\""};
 						 cmd_pub(3, message);
-			thread_create(stack2, sizeof(stack2),
+            thread_create(stack2, sizeof(stack2),
                     THREAD_PRIORITY_MAIN - 1,
                     THREAD_CREATE_STACKTEST,
                     adc,
                     NULL, "mainThread");
 					 }else{
 						 puts("error in connection!!!");
+				
 					 }
-		
+
 					return ;
 }
 
