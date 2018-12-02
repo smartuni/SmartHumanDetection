@@ -17,7 +17,7 @@ Infrared sensor: This sensor is responsible for detecting the presence of the hu
 
 **Hardware Components:**
 
-*SAM R21 Xplained Pro Evaluation Kit* 
+***SAM R21 Xplained Pro Evaluation Kit*** 
 ![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/SAM%2BR21%2BXplained%2BPro%2BEvaluation%2BKit%2B5511ec1bc0543.png)
 
 ***Nokia 5110 graphic lcd 84_48***
