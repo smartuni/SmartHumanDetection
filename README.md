@@ -17,28 +17,28 @@ Infrared sensor: This sensor is responsible for detecting the presence of the hu
 
 **Hardware Components:**
 
-_SAM R21 Xplained Pro Evaluation Kit  _ 
+*SAM R21 Xplained Pro Evaluation Kit* 
 ![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/SAM%2BR21%2BXplained%2BPro%2BEvaluation%2BKit%2B5511ec1bc0543.png)
 
-_Nokia 5110 graphic lcd 84_48  _ 
+*Nokia 5110 graphic lcd 84_48*
 ![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/nokia_5110_graphic_lcd_84_48-500x500.jpg)
 
-_LED  _ 
+*LED * 
 ![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/LED5MM.png)
 
-_Raspberry pi  _ 
+*Raspberry pi* 
 ![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/91zSu44%2B34L._SX355_.jpg)
 
-_Laser  _ 
+*Laser* 
 ![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/NEJE-DK-8-KZ-1000mW-DIY-Laser-Machine-Parts-Laser-Module-High-Power-Violet-Light-Laser.jpg_640x640.jpg)
 
-_PIR Passive-infrared-sensor-motion-sensor  _ 
+*PIR Passive-infrared-sensor-motion-sensor* 
 ![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/hc-sr501-pir-passive-infrared-sensor-motion-sensor-arduino-arelectronics-1709-23-F528300_1.jpg)
 
-_photoesistor.  _ 
+*photoesistor* 
 ![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/photo-resistor.jpg)
 
-_Resistors  _ 
+*Resistors*
 ![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/Resistors-Array.jpg)
 
 Software setup: 
