@@ -11,13 +11,35 @@ Two main sensors are going to be needed to establish this:
 Photodiode-Laser sensor: The principle is to detect any object enters the room, however to distinguish the humans from the pets, a specific hight must be chosen. 
 Infrared sensor: This sensor is responsible for detecting the presence of the human, to decide which room to turn the light on (For example).
 
-The overview of the project:
+**The overview of the project:**
 ![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/OverAll%20picture.PNG) 
 
 
+**Hardware Components:**
 
-Hardware setup:
-(This is going to be described in the near future)
+_SAM R21 Xplained Pro Evaluation Kit  _ 
+![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/SAM%2BR21%2BXplained%2BPro%2BEvaluation%2BKit%2B5511ec1bc0543.png)
+
+_Nokia 5110 graphic lcd 84_48  _ 
+![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/nokia_5110_graphic_lcd_84_48-500x500.jpg)
+
+_LED  _ 
+![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/LED5MM.png)
+
+_Raspberry pi  _ 
+![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/91zSu44%2B34L._SX355_.jpg)
+
+_Laser  _ 
+![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/NEJE-DK-8-KZ-1000mW-DIY-Laser-Machine-Parts-Laser-Module-High-Power-Violet-Light-Laser.jpg_640x640.jpg)
+
+_PIR Passive-infrared-sensor-motion-sensor  _ 
+![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/hc-sr501-pir-passive-infrared-sensor-motion-sensor-arduino-arelectronics-1709-23-F528300_1.jpg)
+
+_photoesistor.  _ 
+![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/photo-resistor.jpg)
+
+_Resistors  _ 
+![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/Resistors-Array.jpg)
 
 Software setup: 
 (This is going to be described in the near future)
