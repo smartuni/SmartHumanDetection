@@ -41,6 +41,10 @@ Infrared sensor: This sensor is responsible for detecting the presence of the hu
 ***Resistors***
 ![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/Resistors-Array.jpg)
 
+***Publisher***
+![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/publisher.PNG)
+
+
 Software setup: 
 (This is going to be described in the near future)
 
