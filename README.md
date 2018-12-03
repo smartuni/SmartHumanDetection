@@ -49,6 +49,7 @@ Infrared sensor: This sensor is responsible for detecting the presence of the hu
 
 
 **Software setup:**
+
 ***Workflow of the Human Detection System***
 ![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/RIOT.png)
 
