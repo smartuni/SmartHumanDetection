@@ -1,0 +1,3 @@
+[submodule "parser"]
+	path = parser
+	url = git@gitlab.informatik.haw-hamburg.de:acc044/parser.git
