@@ -68,5 +68,5 @@ Infrared sensor: This sensor is responsible for detecting the presence of the hu
     cayenne.csv. The Mqttsn.csv contains the internal Topic of your System and the channel of the cayenne-cloud. The Cayenne.csv
     contains the channel of the cayenne-cloud and the internal topic. The config.csv contains the account-date for the Cayenne 
     cloud and the information of the broker.
-6. Now you can start the parser with parser <Cayenne-Cloud-Password> <Broker-IP>
+6. Now you can start the parser with **parser Cayenne-Cloud-Password Broker-IP**
   
