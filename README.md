@@ -54,3 +54,19 @@ Infrared sensor: This sensor is responsible for detecting the presence of the hu
 ![alt text](https://github.com/smartuni/SmartHumanDetection/blob/master/imgs/RIOT.png)
 
 
+**How to setup up the Raspberry-Pi:**
+
+1. You need to install the Lowpan interface and set it up.
+    https://github.com/RIOT-Makers/wpan-raspbian/wiki/Create-a-generic-Raspbian-image-with-6LoWPAN-support
+2. You need to Install the usefull tools and packeges and configure Systemd lowan
+    https://github.com/RIOT-Makers/wpan-raspbian/wiki/Spice-up-Raspbian-for-the-IoT
+3. You need set up your Raspberry-Pi as router
+    https://github.com/RIOT-Makers/wpan-raspbian/wiki/Setup-native-6LoWPAN-router-using-Raspbian-and-RADVD
+4. Setup the mqtt-broker:
+    https://github.com/RIOT-OS/RIOT/tree/master/examples/emcute_mqttsn
+5. You can now download the parser and unzip it. After you downloaded the parser you should edit the mqttsn.csv, config.csv and
+    cayenne.csv. The Mqttsn.csv contains the internal Topic of your System and the channel of the cayenne-cloud. The Cayenne.csv
+    contains the channel of the cayenne-cloud and the internal topic. The config.csv contains the account-date for the Cayenne 
+    cloud and the information of the broker.
+6. Now you can start the parser with parser <Cayenne-Cloud-Password> <Broker-IP>
+  
