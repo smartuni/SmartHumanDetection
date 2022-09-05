@@ -1,6 +1,6 @@
 # SmartHumanDetection
 
-SmartHumanDetection is a Software, wich detects if a human or a pet is in the Room.
+SmartHumanDetection is a Software, which detects if a human or a pet is in the Room.
 
 This software is based on RIOT operating system (https://www.riot-os.org/),the main goal of the project is to control the functions of the house by using a microconrollers and sensors.
 
